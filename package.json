@@ -1,0 +1,21 @@
+{
+  "name": "drawai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-powered architectural floor plan generator with UE5 visualization, Revit integration, and APS cloud services",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=apps/web",
+    "build:core": "npm run build --workspace=packages/core",
+    "build:aps": "npm run build --workspace=packages/aps-client",
+    "lint": "npm run lint --workspace=apps/web",
+    "typecheck": "tsc --build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

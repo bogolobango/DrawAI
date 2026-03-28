@@ -1,0 +1,335 @@
+{
+  "project": {
+    "id": "PRJ-2026-038",
+    "name": "Westfield Elementary Wing B Addition",
+    "buildingType": "K-12 Education Wing",
+    "squareFootage": 14000,
+    "location": "Westfield, NJ",
+    "createdAt": "2026-03-10T09:00:00Z",
+    "updatedAt": "2026-03-25T16:45:00Z"
+  },
+  "roomProgram": [
+    {
+      "id": "RM-201",
+      "roomNumber": "201",
+      "name": "Classroom 1",
+      "department": "General Instruction",
+      "targetAreaSqFt": 850,
+      "dimensions": { "width": 28, "length": 30 },
+      "adjacencyRequirements": ["Corridor"],
+      "requiredElements": ["Student Desks", "Teacher Desk", "Markerboard", "Projector", "Cubbies"]
+    },
+    {
+      "id": "RM-202",
+      "roomNumber": "202",
+      "name": "Classroom 2",
+      "department": "General Instruction",
+      "targetAreaSqFt": 850,
+      "dimensions": { "width": 28, "length": 30 },
+      "adjacencyRequirements": ["Corridor"],
+      "requiredElements": ["Student Desks", "Teacher Desk", "Markerboard", "Projector", "Cubbies"]
+    },
+    {
+      "id": "RM-203",
+      "roomNumber": "203",
+      "name": "Classroom 3",
+      "department": "General Instruction",
+      "targetAreaSqFt": 850,
+      "dimensions": { "width": 28, "length": 30 },
+      "adjacencyRequirements": ["Corridor"],
+      "requiredElements": ["Student Desks", "Teacher Desk", "Markerboard", "Projector", "Cubbies"]
+    },
+    {
+      "id": "RM-204",
+      "roomNumber": "204",
+      "name": "Classroom 4",
+      "department": "General Instruction",
+      "targetAreaSqFt": 850,
+      "dimensions": { "width": 28, "length": 30 },
+      "adjacencyRequirements": ["Corridor"],
+      "requiredElements": ["Student Desks", "Teacher Desk", "Markerboard", "Projector", "Cubbies"]
+    },
+    {
+      "id": "RM-205",
+      "roomNumber": "205",
+      "name": "Science Lab",
+      "department": "Specialized Instruction",
+      "targetAreaSqFt": 1200,
+      "dimensions": { "width": 30, "length": 40 },
+      "adjacencyRequirements": ["Prep Room"],
+      "requiredElements": ["Lab Tables", "Fume Hood", "Sink Stations", "Emergency Shower", "Eyewash"]
+    },
+    {
+      "id": "RM-206",
+      "roomNumber": "206",
+      "name": "Science Prep Room",
+      "department": "Specialized Instruction",
+      "targetAreaSqFt": 200,
+      "dimensions": { "width": 10, "length": 20 },
+      "adjacencyRequirements": ["Science Lab"],
+      "requiredElements": ["Storage Cabinets", "Prep Sink", "Chemical Storage"]
+    },
+    {
+      "id": "RM-207",
+      "roomNumber": "207",
+      "name": "Art Room",
+      "department": "Specialized Instruction",
+      "targetAreaSqFt": 1100,
+      "dimensions": { "width": 28, "length": 40 },
+      "adjacencyRequirements": ["Kiln Room"],
+      "requiredElements": ["Art Tables", "Sink Stations", "Drying Racks", "Supply Storage"]
+    },
+    {
+      "id": "RM-208",
+      "roomNumber": "208",
+      "name": "Kiln Room",
+      "department": "Specialized Instruction",
+      "targetAreaSqFt": 120,
+      "dimensions": { "width": 10, "length": 12 },
+      "adjacencyRequirements": ["Art Room"],
+      "requiredElements": ["Kiln", "Ventilation", "Storage Shelving"]
+    },
+    {
+      "id": "RM-209",
+      "roomNumber": "209",
+      "name": "Media Center / Library",
+      "department": "Shared Resources",
+      "targetAreaSqFt": 1800,
+      "dimensions": { "width": 36, "length": 50 },
+      "adjacencyRequirements": ["Corridor"],
+      "requiredElements": ["Book Stacks", "Reading Tables", "Computer Stations", "Circulation Desk"]
+    },
+    {
+      "id": "RM-210",
+      "roomNumber": "210",
+      "name": "Teacher Workroom",
+      "department": "Admin",
+      "targetAreaSqFt": 300,
+      "dimensions": { "width": 15, "length": 20 },
+      "adjacencyRequirements": [],
+      "requiredElements": ["Work Tables", "Copier", "Mailboxes", "Supply Storage"]
+    },
+    {
+      "id": "RM-211",
+      "roomNumber": "211",
+      "name": "Admin Office",
+      "department": "Admin",
+      "targetAreaSqFt": 200,
+      "dimensions": { "width": 10, "length": 20 },
+      "adjacencyRequirements": ["Main Entry"],
+      "requiredElements": ["Reception Counter", "Desks", "File Storage"]
+    },
+    {
+      "id": "RM-212",
+      "roomNumber": "212",
+      "name": "Boys Restroom",
+      "department": "Student Services",
+      "targetAreaSqFt": 250,
+      "dimensions": { "width": 12, "length": 20 },
+      "adjacencyRequirements": ["Corridor"],
+      "requiredElements": ["Water Closets", "Urinals", "Lavatories", "ADA Stall"]
+    },
+    {
+      "id": "RM-213",
+      "roomNumber": "213",
+      "name": "Girls Restroom",
+      "department": "Student Services",
+      "targetAreaSqFt": 250,
+      "dimensions": { "width": 12, "length": 20 },
+      "adjacencyRequirements": ["Corridor"],
+      "requiredElements": ["Water Closets", "Lavatories", "ADA Stall"]
+    },
+    {
+      "id": "RM-214",
+      "roomNumber": "214",
+      "name": "Janitor Closet",
+      "department": "Building Services",
+      "targetAreaSqFt": 60,
+      "dimensions": { "width": 6, "length": 10 },
+      "adjacencyRequirements": [],
+      "requiredElements": ["Mop Sink", "Shelving"]
+    },
+    {
+      "id": "RM-215",
+      "roomNumber": "215",
+      "name": "IT / Server Room",
+      "department": "Building Services",
+      "targetAreaSqFt": 100,
+      "dimensions": { "width": 10, "length": 10 },
+      "adjacencyRequirements": [],
+      "requiredElements": ["Server Racks", "UPS", "Cooling Unit"]
+    }
+  ],
+  "floorPlanLayout": {
+    "rooms": [
+      {
+        "roomId": "RM-201",
+        "geometry": { "x": 0, "y": 0, "width": 336, "height": 360, "rotation": 0 },
+        "doors": [{ "id": "DR-201A", "x": 168, "y": 360, "width": 36, "swingDirection": "Left-Out", "wallSide": "south" }],
+        "windows": [
+          { "id": "WN-201A", "x": 48, "y": 0, "width": 96, "wallSide": "north" },
+          { "id": "WN-201B", "x": 192, "y": 0, "width": 96, "wallSide": "north" }
+        ],
+        "furniture": [
+          { "id": "FN-201-1", "familyName": "Equip-Markerboard-Wall", "familyType": "96x48", "x": 48, "y": 10, "rotation": 0, "width": 96, "height": 4 },
+          { "id": "FN-201-2", "familyName": "Equip-Projector-CeilingMount", "familyType": "Standard", "x": 168, "y": 60, "rotation": 0, "width": 12, "height": 12 }
+        ]
+      },
+      {
+        "roomId": "RM-202",
+        "geometry": { "x": 336, "y": 0, "width": 336, "height": 360, "rotation": 0 },
+        "doors": [{ "id": "DR-202A", "x": 504, "y": 360, "width": 36, "swingDirection": "Left-Out", "wallSide": "south" }],
+        "windows": [
+          { "id": "WN-202A", "x": 384, "y": 0, "width": 96, "wallSide": "north" },
+          { "id": "WN-202B", "x": 528, "y": 0, "width": 96, "wallSide": "north" }
+        ],
+        "furniture": []
+      },
+      {
+        "roomId": "RM-203",
+        "geometry": { "x": 0, "y": 432, "width": 336, "height": 360, "rotation": 0 },
+        "doors": [{ "id": "DR-203A", "x": 168, "y": 432, "width": 36, "swingDirection": "Left-Out", "wallSide": "north" }],
+        "windows": [
+          { "id": "WN-203A", "x": 48, "y": 792, "width": 96, "wallSide": "south" },
+          { "id": "WN-203B", "x": 192, "y": 792, "width": 96, "wallSide": "south" }
+        ],
+        "furniture": []
+      },
+      {
+        "roomId": "RM-204",
+        "geometry": { "x": 336, "y": 432, "width": 336, "height": 360, "rotation": 0 },
+        "doors": [{ "id": "DR-204A", "x": 504, "y": 432, "width": 36, "swingDirection": "Left-Out", "wallSide": "north" }],
+        "windows": [
+          { "id": "WN-204A", "x": 384, "y": 792, "width": 96, "wallSide": "south" },
+          { "id": "WN-204B", "x": 528, "y": 792, "width": 96, "wallSide": "south" }
+        ],
+        "furniture": []
+      },
+      {
+        "roomId": "RM-205",
+        "geometry": { "x": 672, "y": 0, "width": 360, "height": 480, "rotation": 0 },
+        "doors": [{ "id": "DR-205A", "x": 672, "y": 240, "width": 36, "swingDirection": "Right-Out", "wallSide": "west" }],
+        "windows": [
+          { "id": "WN-205A", "x": 750, "y": 0, "width": 120, "wallSide": "north" }
+        ],
+        "furniture": []
+      },
+      {
+        "roomId": "RM-206",
+        "geometry": { "x": 672, "y": 480, "width": 120, "height": 240, "rotation": 0 },
+        "doors": [{ "id": "DR-206A", "x": 672, "y": 560, "width": 36, "swingDirection": "Left-In", "wallSide": "west" }],
+        "windows": [],
+        "furniture": []
+      },
+      {
+        "roomId": "RM-209",
+        "geometry": { "x": 792, "y": 480, "width": 432, "height": 600, "rotation": 0 },
+        "doors": [{ "id": "DR-209A", "x": 792, "y": 700, "width": 72, "swingDirection": "Left-Out", "wallSide": "west" }],
+        "windows": [
+          { "id": "WN-209A", "x": 950, "y": 1080, "width": 144, "wallSide": "south" }
+        ],
+        "furniture": []
+      }
+    ],
+    "corridors": [
+      {
+        "id": "COR-01",
+        "points": [
+          { "x": 0, "y": 360 },
+          { "x": 1032, "y": 360 }
+        ],
+        "width": 72
+      },
+      {
+        "id": "COR-02",
+        "points": [
+          { "x": 672, "y": 360 },
+          { "x": 672, "y": 1080 }
+        ],
+        "width": 72
+      }
+    ],
+    "overallWidth": 1224,
+    "overallHeight": 1080,
+    "scale": 1
+  },
+  "familyMapping": [
+    {
+      "roomType": "Classroom",
+      "elements": [
+        { "category": "Doors", "familyName": "Door-Flush-Wood", "familyType": "36x84", "parameters": { "FireRating": "20-min", "FrameMaterial": "HM", "HardwareSet": "HW-02" } },
+        { "category": "Furniture", "familyName": "Furn-Desk-Student", "familyType": "24x18", "parameters": {} },
+        { "category": "Furniture", "familyName": "Furn-Chair-Student", "familyType": "18H", "parameters": {} },
+        { "category": "Furniture", "familyName": "Furn-Desk-Teacher", "familyType": "60x30", "parameters": {} },
+        { "category": "Equipment", "familyName": "Equip-Markerboard-Wall", "familyType": "96x48", "parameters": {} },
+        { "category": "Equipment", "familyName": "Equip-Projector-CeilingMount", "familyType": "Standard", "parameters": {} },
+        { "category": "Casework", "familyName": "CW-Base-Cubby", "familyType": "48W", "parameters": {} }
+      ]
+    },
+    {
+      "roomType": "Science Lab",
+      "elements": [
+        { "category": "Doors", "familyName": "Door-Flush-Wood", "familyType": "36x84", "parameters": { "FireRating": "20-min", "FrameMaterial": "HM", "HardwareSet": "HW-02" } },
+        { "category": "Casework", "familyName": "CW-Lab-Island", "familyType": "96W", "parameters": { "CountertopMaterial": "Chemical Resistant Resin" } },
+        { "category": "Equipment", "familyName": "Equip-FumeHood", "familyType": "48W", "parameters": {} },
+        { "category": "Plumbing Fixtures", "familyName": "Plumb-Sink-Lab", "familyType": "WallMount", "parameters": {} },
+        { "category": "Safety", "familyName": "Safety-EmergencyShower-Combo", "familyType": "Standard", "parameters": {} }
+      ]
+    },
+    {
+      "roomType": "Art Room",
+      "elements": [
+        { "category": "Doors", "familyName": "Door-Flush-Wood", "familyType": "36x84", "parameters": { "FireRating": "20-min", "FrameMaterial": "HM", "HardwareSet": "HW-02" } },
+        { "category": "Furniture", "familyName": "Furn-Table-Art", "familyType": "48x72", "parameters": {} },
+        { "category": "Plumbing Fixtures", "familyName": "Plumb-Sink-Art", "familyType": "DeepBasin", "parameters": {} },
+        { "category": "Casework", "familyName": "CW-Tall-Storage", "familyType": "36W", "parameters": {} }
+      ]
+    }
+  ],
+  "doorSchedule": [
+    { "mark": "201A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-02", "fireRating": "20-min", "glazing": "Narrow Lite" },
+    { "mark": "202A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-02", "fireRating": "20-min", "glazing": "Narrow Lite" },
+    { "mark": "203A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-02", "fireRating": "20-min", "glazing": "Narrow Lite" },
+    { "mark": "204A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-02", "fireRating": "20-min", "glazing": "Narrow Lite" },
+    { "mark": "205A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-02", "fireRating": "20-min", "glazing": "Half Lite" },
+    { "mark": "206A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-03", "fireRating": "20-min", "glazing": "None" },
+    { "mark": "207A", "width": "3'-6\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-02", "fireRating": "20-min", "glazing": "Narrow Lite" },
+    { "mark": "209A", "width": "6'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F2", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-01", "fireRating": "20-min", "glazing": "Half Lite" }
+  ],
+  "roomFinishSchedule": [
+    { "roomNumber": "201", "roomName": "Classroom 1", "floorFinish": "VCT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "9'-6\"", "ceilingType": "ACT-1", "notes": "Tackboard on south wall." },
+    { "roomNumber": "202", "roomName": "Classroom 2", "floorFinish": "VCT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "9'-6\"", "ceilingType": "ACT-1", "notes": "Tackboard on south wall." },
+    { "roomNumber": "203", "roomName": "Classroom 3", "floorFinish": "VCT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "9'-6\"", "ceilingType": "ACT-1", "notes": "Tackboard on south wall." },
+    { "roomNumber": "204", "roomName": "Classroom 4", "floorFinish": "VCT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "9'-6\"", "ceilingType": "ACT-1", "notes": "Tackboard on south wall." },
+    { "roomNumber": "205", "roomName": "Science Lab", "floorFinish": "SV-2", "base": "CV-1", "northWall": "PT-3", "southWall": "PT-3", "eastWall": "PT-3", "westWall": "PT-3", "ceilingHeight": "10'-0\"", "ceilingType": "ACT-1", "notes": "Chemical-resistant finishes. Epoxy countertops." },
+    { "roomNumber": "206", "roomName": "Science Prep Room", "floorFinish": "SV-2", "base": "CV-1", "northWall": "PT-3", "southWall": "PT-3", "eastWall": "PT-3", "westWall": "PT-3", "ceilingHeight": "9'-0\"", "ceilingType": "GWB", "notes": "Chemical storage ventilation required." },
+    { "roomNumber": "207", "roomName": "Art Room", "floorFinish": "SV-1", "base": "CV-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "10'-0\"", "ceilingType": "ACT-1", "notes": "Stain-resistant wall finish at sink areas." },
+    { "roomNumber": "209", "roomName": "Media Center / Library", "floorFinish": "CPT-1", "base": "RB-1", "northWall": "PT-2", "southWall": "PT-2", "eastWall": "PT-2", "westWall": "PT-2", "ceilingHeight": "12'-0\"", "ceilingType": "ACT-2", "notes": "Acoustical treatment. Open ceiling at reading area." },
+    { "roomNumber": "210", "roomName": "Teacher Workroom", "floorFinish": "VCT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "" },
+    { "roomNumber": "211", "roomName": "Admin Office", "floorFinish": "CPT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "Transaction counter at corridor." }
+  ],
+  "sheetSet": [
+    { "sheetNumber": "G0.01", "sheetName": "Cover Sheet & Life Safety Plan", "discipline": "General" },
+    { "sheetNumber": "A1.01", "sheetName": "Level 1 Floor Plan", "discipline": "Architectural" },
+    { "sheetNumber": "A1.02", "sheetName": "Enlarged Classroom Plans", "discipline": "Architectural" },
+    { "sheetNumber": "A2.01", "sheetName": "Reflected Ceiling Plan", "discipline": "Architectural" },
+    { "sheetNumber": "A6.01", "sheetName": "Door & Room Finish Schedules", "discipline": "Architectural" },
+    { "sheetNumber": "A8.01", "sheetName": "Interior Elevations — Classrooms", "discipline": "Architectural" },
+    { "sheetNumber": "A8.02", "sheetName": "Interior Elevations — Science Lab & Art Room", "discipline": "Architectural" },
+    { "sheetNumber": "M1.01", "sheetName": "HVAC Ductwork Plan", "discipline": "Mechanical" },
+    { "sheetNumber": "E1.01", "sheetName": "Power & Data Plan", "discipline": "Electrical" },
+    { "sheetNumber": "P1.01", "sheetName": "Plumbing Floor Plan", "discipline": "Plumbing" }
+  ],
+  "aiConfidenceMetrics": {
+    "overallScore": 91.2,
+    "placementScore": 93.5,
+    "adjacencyCompliance": 97.0,
+    "codeCompliance": 95.8,
+    "mepFeasibility": 85.3,
+    "warnings": [
+      "RM-205 (Science Lab) fume hood exhaust requires dedicated ductwork to roof. Verify MEP coordination.",
+      "Corridor COR-01 occupant load exceeds 100. Verify 72-inch minimum clear width is maintained at all points.",
+      "RM-208 (Kiln Room) requires dedicated 240V circuit and enhanced ventilation. Verify electrical capacity."
+    ]
+  }
+}

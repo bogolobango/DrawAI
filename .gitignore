@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.js.map
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unreal Engine
+apps/unreal/Binaries/
+apps/unreal/Build/
+apps/unreal/DerivedDataCache/
+apps/unreal/Intermediate/
+apps/unreal/Saved/
+apps/unreal/.vs/
+*.sln
+*.suo
+
+# Revit Plugin
+apps/revit-plugin/bin/
+apps/revit-plugin/obj/
+*.user
+*.suo
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo

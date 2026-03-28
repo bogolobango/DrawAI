@@ -1,0 +1,327 @@
+{
+  "project": {
+    "id": "PRJ-2026-041",
+    "name": "Austin Primary Care Clinic",
+    "buildingType": "Healthcare Clinic",
+    "squareFootage": 8500,
+    "location": "Austin, TX",
+    "createdAt": "2026-03-15T10:00:00Z",
+    "updatedAt": "2026-03-27T14:30:00Z"
+  },
+  "roomProgram": [
+    {
+      "id": "RM-101",
+      "roomNumber": "101",
+      "name": "Exam Room 1",
+      "department": "Clinical",
+      "targetAreaSqFt": 120,
+      "dimensions": { "width": 10, "length": 12 },
+      "adjacencyRequirements": ["Nurse Station", "Clean Utility"],
+      "requiredElements": ["Exam Table", "Clinical Sink", "Wall Cabinet"]
+    },
+    {
+      "id": "RM-102",
+      "roomNumber": "102",
+      "name": "Exam Room 2",
+      "department": "Clinical",
+      "targetAreaSqFt": 120,
+      "dimensions": { "width": 10, "length": 12 },
+      "adjacencyRequirements": ["Nurse Station", "Clean Utility"],
+      "requiredElements": ["Exam Table", "Clinical Sink", "Wall Cabinet"]
+    },
+    {
+      "id": "RM-103",
+      "roomNumber": "103",
+      "name": "Exam Room 3",
+      "department": "Clinical",
+      "targetAreaSqFt": 120,
+      "dimensions": { "width": 10, "length": 12 },
+      "adjacencyRequirements": ["Nurse Station"],
+      "requiredElements": ["Exam Table", "Clinical Sink", "Wall Cabinet"]
+    },
+    {
+      "id": "RM-104",
+      "roomNumber": "104",
+      "name": "Exam Room 4",
+      "department": "Clinical",
+      "targetAreaSqFt": 120,
+      "dimensions": { "width": 10, "length": 12 },
+      "adjacencyRequirements": ["Nurse Station"],
+      "requiredElements": ["Exam Table", "Clinical Sink", "Wall Cabinet"]
+    },
+    {
+      "id": "RM-105",
+      "roomNumber": "105",
+      "name": "Nurse Station",
+      "department": "Clinical Support",
+      "targetAreaSqFt": 240,
+      "dimensions": { "width": 12, "length": 20 },
+      "adjacencyRequirements": ["Exam Room 1", "Exam Room 2", "Exam Room 3", "Exam Room 4"],
+      "requiredElements": ["Nurse Counter", "Computer Stations", "Chart Storage"]
+    },
+    {
+      "id": "RM-106",
+      "roomNumber": "106",
+      "name": "Clean Utility",
+      "department": "Clinical Support",
+      "targetAreaSqFt": 100,
+      "dimensions": { "width": 10, "length": 10 },
+      "adjacencyRequirements": ["Exam Room 1", "Exam Room 2"],
+      "requiredElements": ["Supply Shelving", "Medication Cabinet", "Clinical Sink"]
+    },
+    {
+      "id": "RM-107",
+      "roomNumber": "107",
+      "name": "Soiled Utility",
+      "department": "Clinical Support",
+      "targetAreaSqFt": 80,
+      "dimensions": { "width": 8, "length": 10 },
+      "adjacencyRequirements": [],
+      "requiredElements": ["Biohazard Container", "Utility Sink", "Sharps Disposal"]
+    },
+    {
+      "id": "RM-108",
+      "roomNumber": "108",
+      "name": "Waiting Room",
+      "department": "Public",
+      "targetAreaSqFt": 400,
+      "dimensions": { "width": 20, "length": 20 },
+      "adjacencyRequirements": ["Reception"],
+      "requiredElements": ["Seating", "Side Tables", "TV Mount"]
+    },
+    {
+      "id": "RM-109",
+      "roomNumber": "109",
+      "name": "Reception",
+      "department": "Admin",
+      "targetAreaSqFt": 150,
+      "dimensions": { "width": 10, "length": 15 },
+      "adjacencyRequirements": ["Waiting Room"],
+      "requiredElements": ["Reception Desk", "Computer Stations", "File Storage"]
+    },
+    {
+      "id": "RM-110",
+      "roomNumber": "110",
+      "name": "Lab / Blood Draw",
+      "department": "Clinical",
+      "targetAreaSqFt": 100,
+      "dimensions": { "width": 10, "length": 10 },
+      "adjacencyRequirements": ["Nurse Station"],
+      "requiredElements": ["Phlebotomy Chair", "Clinical Sink", "Specimen Storage"]
+    },
+    {
+      "id": "RM-111",
+      "roomNumber": "111",
+      "name": "Physician Office",
+      "department": "Admin",
+      "targetAreaSqFt": 120,
+      "dimensions": { "width": 10, "length": 12 },
+      "adjacencyRequirements": [],
+      "requiredElements": ["Desk", "Bookshelf", "Guest Chairs"]
+    },
+    {
+      "id": "RM-112",
+      "roomNumber": "112",
+      "name": "Staff Break Room",
+      "department": "Staff",
+      "targetAreaSqFt": 150,
+      "dimensions": { "width": 10, "length": 15 },
+      "adjacencyRequirements": [],
+      "requiredElements": ["Kitchenette", "Table", "Seating", "Refrigerator"]
+    },
+    {
+      "id": "RM-113",
+      "roomNumber": "113",
+      "name": "Restroom (Public)",
+      "department": "Public",
+      "targetAreaSqFt": 60,
+      "dimensions": { "width": 6, "length": 10 },
+      "adjacencyRequirements": ["Waiting Room"],
+      "requiredElements": ["ADA Toilet", "ADA Sink", "Grab Bars"]
+    },
+    {
+      "id": "RM-114",
+      "roomNumber": "114",
+      "name": "Restroom (Staff)",
+      "department": "Staff",
+      "targetAreaSqFt": 50,
+      "dimensions": { "width": 5, "length": 10 },
+      "adjacencyRequirements": [],
+      "requiredElements": ["Toilet", "Sink"]
+    }
+  ],
+  "floorPlanLayout": {
+    "rooms": [
+      {
+        "roomId": "RM-101",
+        "geometry": { "x": 120, "y": 450, "width": 120, "height": 144, "rotation": 0 },
+        "doors": [{ "id": "DR-101A", "x": 120, "y": 550, "width": 36, "swingDirection": "Left-In", "wallSide": "west" }],
+        "windows": [],
+        "furniture": [
+          { "id": "FN-101-1", "familyName": "MedEq-ExamTable-Ritter", "familyType": "Standard", "x": 170, "y": 500, "rotation": 0, "width": 28, "height": 72 },
+          { "id": "FN-101-2", "familyName": "CW-Base-Sink-36W", "familyType": "Clinical", "x": 130, "y": 460, "rotation": 0, "width": 36, "height": 24 }
+        ]
+      },
+      {
+        "roomId": "RM-102",
+        "geometry": { "x": 120, "y": 300, "width": 120, "height": 144, "rotation": 0 },
+        "doors": [{ "id": "DR-102A", "x": 120, "y": 400, "width": 36, "swingDirection": "Left-In", "wallSide": "west" }],
+        "windows": [],
+        "furniture": [
+          { "id": "FN-102-1", "familyName": "MedEq-ExamTable-Ritter", "familyType": "Standard", "x": 170, "y": 350, "rotation": 0, "width": 28, "height": 72 },
+          { "id": "FN-102-2", "familyName": "CW-Base-Sink-36W", "familyType": "Clinical", "x": 130, "y": 310, "rotation": 0, "width": 36, "height": 24 }
+        ]
+      },
+      {
+        "roomId": "RM-103",
+        "geometry": { "x": 360, "y": 450, "width": 120, "height": 144, "rotation": 0 },
+        "doors": [{ "id": "DR-103A", "x": 360, "y": 550, "width": 36, "swingDirection": "Right-In", "wallSide": "west" }],
+        "windows": [],
+        "furniture": [
+          { "id": "FN-103-1", "familyName": "MedEq-ExamTable-Ritter", "familyType": "Standard", "x": 410, "y": 500, "rotation": 0, "width": 28, "height": 72 },
+          { "id": "FN-103-2", "familyName": "CW-Base-Sink-36W", "familyType": "Clinical", "x": 370, "y": 460, "rotation": 0, "width": 36, "height": 24 }
+        ]
+      },
+      {
+        "roomId": "RM-104",
+        "geometry": { "x": 360, "y": 300, "width": 120, "height": 144, "rotation": 0 },
+        "doors": [{ "id": "DR-104A", "x": 360, "y": 400, "width": 36, "swingDirection": "Right-In", "wallSide": "west" }],
+        "windows": [],
+        "furniture": [
+          { "id": "FN-104-1", "familyName": "MedEq-ExamTable-Ritter", "familyType": "Standard", "x": 410, "y": 350, "rotation": 0, "width": 28, "height": 72 },
+          { "id": "FN-104-2", "familyName": "CW-Base-Sink-36W", "familyType": "Clinical", "x": 370, "y": 310, "rotation": 0, "width": 36, "height": 24 }
+        ]
+      },
+      {
+        "roomId": "RM-105",
+        "geometry": { "x": 240, "y": 360, "width": 120, "height": 240, "rotation": 0 },
+        "doors": [],
+        "windows": [],
+        "furniture": [
+          { "id": "FN-105-1", "familyName": "CW-Counter-Nurse", "familyType": "L-Shape", "x": 260, "y": 380, "rotation": 0, "width": 80, "height": 30 }
+        ]
+      },
+      {
+        "roomId": "RM-106",
+        "geometry": { "x": 120, "y": 150, "width": 120, "height": 120, "rotation": 0 },
+        "doors": [{ "id": "DR-106A", "x": 120, "y": 210, "width": 36, "swingDirection": "Left-In", "wallSide": "west" }],
+        "windows": [],
+        "furniture": []
+      },
+      {
+        "roomId": "RM-107",
+        "geometry": { "x": 360, "y": 150, "width": 96, "height": 120, "rotation": 0 },
+        "doors": [{ "id": "DR-107A", "x": 360, "y": 210, "width": 36, "swingDirection": "Right-In", "wallSide": "west" }],
+        "windows": [],
+        "furniture": []
+      },
+      {
+        "roomId": "RM-108",
+        "geometry": { "x": 0, "y": 600, "width": 240, "height": 240, "rotation": 0 },
+        "doors": [{ "id": "DR-108A", "x": 200, "y": 600, "width": 72, "swingDirection": "Left-In", "wallSide": "north" }],
+        "windows": [{ "id": "WN-108A", "x": 60, "y": 840, "width": 96, "wallSide": "south" }],
+        "furniture": []
+      },
+      {
+        "roomId": "RM-109",
+        "geometry": { "x": 240, "y": 600, "width": 120, "height": 180, "rotation": 0 },
+        "doors": [],
+        "windows": [],
+        "furniture": [
+          { "id": "FN-109-1", "familyName": "CW-Reception-Desk", "familyType": "Standard", "x": 260, "y": 610, "rotation": 0, "width": 96, "height": 36 }
+        ]
+      }
+    ],
+    "corridors": [
+      {
+        "id": "COR-01",
+        "points": [
+          { "x": 120, "y": 600 },
+          { "x": 120, "y": 150 }
+        ],
+        "width": 60
+      },
+      {
+        "id": "COR-02",
+        "points": [
+          { "x": 120, "y": 450 },
+          { "x": 360, "y": 450 }
+        ],
+        "width": 60
+      }
+    ],
+    "overallWidth": 600,
+    "overallHeight": 900,
+    "scale": 1
+  },
+  "familyMapping": [
+    {
+      "roomType": "Exam Room",
+      "elements": [
+        { "category": "Doors", "familyName": "Door-Flush-Wood", "familyType": "36x84", "parameters": { "FireRating": "20-min", "FrameMaterial": "HM", "HardwareSet": "HW-04" } },
+        { "category": "Casework", "familyName": "CW-Base-Sink", "familyType": "36W", "parameters": { "CountertopMaterial": "Solid Surface" } },
+        { "category": "Medical Equipment", "familyName": "MedEq-ExamTable-Ritter", "familyType": "Standard", "parameters": {} },
+        { "category": "Medical Equipment", "familyName": "MedEq-SharpsContainer-Wall", "familyType": "Standard", "parameters": {} },
+        { "category": "Plumbing Fixtures", "familyName": "Plumb-Sink-Clinical-WallMount", "familyType": "Standard", "parameters": {} }
+      ]
+    },
+    {
+      "roomType": "Nurse Station",
+      "elements": [
+        { "category": "Casework", "familyName": "CW-Counter-Nurse", "familyType": "L-Shape", "parameters": { "CountertopMaterial": "Solid Surface" } },
+        { "category": "Furniture", "familyName": "Furn-Chair-Task", "familyType": "Standard", "parameters": {} }
+      ]
+    },
+    {
+      "roomType": "Waiting Room",
+      "elements": [
+        { "category": "Doors", "familyName": "Door-Alum-Storefront", "familyType": "72x84", "parameters": { "FireRating": "None", "FrameMaterial": "AL" } },
+        { "category": "Furniture", "familyName": "Furn-Seating-Tandem", "familyType": "3-Seat", "parameters": {} }
+      ]
+    }
+  ],
+  "doorSchedule": [
+    { "mark": "101A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-04", "fireRating": "20-min", "glazing": "None" },
+    { "mark": "102A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-04", "fireRating": "20-min", "glazing": "None" },
+    { "mark": "103A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-04", "fireRating": "20-min", "glazing": "None" },
+    { "mark": "104A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-04", "fireRating": "20-min", "glazing": "None" },
+    { "mark": "106A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-03", "fireRating": "20-min", "glazing": "None" },
+    { "mark": "107A", "width": "3'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F1", "frameMaterial": "HM", "doorMaterial": "WD", "hardwareSet": "HW-03", "fireRating": "20-min", "glazing": "None" },
+    { "mark": "108A", "width": "6'-0\"", "height": "7'-0\"", "thickness": "1 3/4\"", "frameType": "F3", "frameMaterial": "AL", "doorMaterial": "GL", "hardwareSet": "HW-01", "fireRating": "None", "glazing": "Full Lite" }
+  ],
+  "roomFinishSchedule": [
+    { "roomNumber": "101", "roomName": "Exam Room 1", "floorFinish": "LVT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-2", "westWall": "PT-1", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "Provide corner guards." },
+    { "roomNumber": "102", "roomName": "Exam Room 2", "floorFinish": "LVT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-2", "westWall": "PT-1", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "Provide corner guards." },
+    { "roomNumber": "103", "roomName": "Exam Room 3", "floorFinish": "LVT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-2", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "Provide corner guards." },
+    { "roomNumber": "104", "roomName": "Exam Room 4", "floorFinish": "LVT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-2", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "Provide corner guards." },
+    { "roomNumber": "105", "roomName": "Nurse Station", "floorFinish": "LVT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "" },
+    { "roomNumber": "106", "roomName": "Clean Utility", "floorFinish": "SV-1", "base": "CV-1", "northWall": "PT-3", "southWall": "PT-3", "eastWall": "PT-3", "westWall": "PT-3", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "Seamless floor-to-wall transition." },
+    { "roomNumber": "107", "roomName": "Soiled Utility", "floorFinish": "SV-1", "base": "CV-1", "northWall": "PT-3", "southWall": "PT-3", "eastWall": "PT-3", "westWall": "PT-3", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "Seamless floor-to-wall transition." },
+    { "roomNumber": "108", "roomName": "Waiting Room", "floorFinish": "LVT-2", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "10'-0\"", "ceilingType": "ACT-2", "notes": "" },
+    { "roomNumber": "109", "roomName": "Reception", "floorFinish": "LVT-2", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "10'-0\"", "ceilingType": "ACT-2", "notes": "" },
+    { "roomNumber": "110", "roomName": "Lab / Blood Draw", "floorFinish": "SV-1", "base": "CV-1", "northWall": "PT-3", "southWall": "PT-3", "eastWall": "PT-3", "westWall": "PT-3", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "Chemical-resistant countertop." },
+    { "roomNumber": "111", "roomName": "Physician Office", "floorFinish": "CPT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "" },
+    { "roomNumber": "112", "roomName": "Staff Break Room", "floorFinish": "LVT-1", "base": "RB-1", "northWall": "PT-1", "southWall": "PT-1", "eastWall": "PT-1", "westWall": "PT-1", "ceilingHeight": "9'-0\"", "ceilingType": "ACT-1", "notes": "" }
+  ],
+  "sheetSet": [
+    { "sheetNumber": "G0.01", "sheetName": "Cover Sheet & Code Data", "discipline": "General" },
+    { "sheetNumber": "A1.01", "sheetName": "Overall Floor Plan", "discipline": "Architectural" },
+    { "sheetNumber": "A1.02", "sheetName": "Enlarged Clinical Plan", "discipline": "Architectural" },
+    { "sheetNumber": "A2.01", "sheetName": "Reflected Ceiling Plan", "discipline": "Architectural" },
+    { "sheetNumber": "A6.01", "sheetName": "Door & Room Finish Schedules", "discipline": "Architectural" },
+    { "sheetNumber": "M1.01", "sheetName": "Mechanical Floor Plan", "discipline": "Mechanical" },
+    { "sheetNumber": "E1.01", "sheetName": "Electrical Lighting Plan", "discipline": "Electrical" },
+    { "sheetNumber": "P1.01", "sheetName": "Plumbing Floor Plan", "discipline": "Plumbing" }
+  ],
+  "aiConfidenceMetrics": {
+    "overallScore": 94.5,
+    "placementScore": 96.0,
+    "adjacencyCompliance": 100.0,
+    "codeCompliance": 98.2,
+    "mepFeasibility": 89.5,
+    "warnings": [
+      "RM-107 (Soiled Utility) is within 15 feet of RM-106 (Clean Utility). Verify workflow separation.",
+      "RM-113 (Public Restroom) exceeds 75-foot travel distance from waiting area. Consider relocating closer."
+    ]
+  }
+}
